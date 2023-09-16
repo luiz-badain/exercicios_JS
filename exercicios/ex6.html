@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 6</title>
+</head>
+<body>
+    <h1>Calcular Peso Ideal</h1>
+
+    <form id="calculadora">
+      <label for="altura">Altura (em metros):</label>
+      <input type="number" id="altura" step="0.01" required>
+  
+      <label for="sexo">Sexo:</label>
+      <select id="sexo">
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+      </select>
+  
+      <button type="button" onclick="calcularPesoIdeal()">Calcular</button>
+    </form>
+  
+    <h2 id="resultado"></h2>
+
+    <script src="ex6.js"></script>
+  
+</body>
+</html>
